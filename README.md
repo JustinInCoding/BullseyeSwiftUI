@@ -14,10 +14,20 @@
 ## Features
 List the ready features here:
 - Must Haves
-    - Awesome feature 2
-    - Awesome feature 3
+    - Add an instructions label
+    - Add a target label
+    - Add a slider and make it go between the values 1 and 100
+    - Add a “Hit Me” button
+    - Style the text like Luke’s design
+    - Show a popup when the user taps the Hit Me button
+    - Read the value of the slider after the user taps the Hit Me button.
+    - Generate a random number for the target value.
+    - Calculate and display the store.
 - Nice to Haves
-    - Awesome feature 1
+    - Implement multiple rounds
+    - Implement restarting the game
+    - Add the leaderboard screen
+    - Make the app look pretty :]
 
 
 ## Screenshots
