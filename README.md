@@ -12,6 +12,7 @@
 - Use @State(and $ binding) to track the alert view(display some info)'s presenting state
 - Use @State variable to binding the slider to make sure the value fo the slider will be sync when user is playing with it
 - use string interpolation to display the slider value in alert
+- make the game logic depart from the contentView for according to Single Responsibility Principle
 
 
 
@@ -73,6 +74,8 @@ Xcode - 15.4 (the version I created the project)
 - If you try to simply assign the Double to the Int, you’ll get an error because the feature of Swift which is type safety
 - lifetime of a variable is called “scope”
 - use a local variable to convert convert a double value to an integer with rounded()
+- App Architecture, which is a fancy way of saying the strategy you use for how to organize your code
+- One of the best practices of App Architecture is called the “single responsibility principle”. That means that you should think about how to organize your app into multiple classes and structs, where each class or struct has one, and only one job
 
 
 
