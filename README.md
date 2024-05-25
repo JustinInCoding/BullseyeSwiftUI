@@ -10,6 +10,8 @@
 - Use Stack, Text, Slider and Button to make the UI
 - Use modifiers to style the text
 - Use @State(and $ binding) to track the alert view(display some info)'s presenting state
+- Use @State variable to binding the slider to make sure the value fo the slider will be sync when user is playing with it
+
 
 
 
@@ -63,6 +65,9 @@ Xcode - 15.4 (the version I created the project)
 - State in SwiftUI is used to make your user interface accurately represent the internal state of your app, also means your user interfaces and your state are always consistent
 - @State is a special keyword that says this is a state variable, means whenever a state variable changes, SwiftUI is going to automatically recompute the body, resolve the body of the view, and so the view and state variable are always in sync
 - using $ sign before the state variable cause we want to convert our state variable to a binding into the state variable
+- use Control + click to check the description that you don't know
+- SwiftUI was designed to solve the problem of the mismatch between user interface and application state. One of the things SwiftUI provides to help with this is something called Bindings
+- Bindings are a way of that a particular user interface view will always be tied to a particular state value
 
 
 ## Acknowledgements
