@@ -72,7 +72,7 @@ struct ContentView: View {
 						print("Alert closed!")
 					}
 				}, message: {
-					Text("This is my first alert!")
+					Text("This slider value is \(sliderValue).")
 				})
 			} else {
 				// TODO: Check lator
@@ -84,7 +84,7 @@ struct ContentView: View {
 								message: Text("This is my first Alert!"),
 								dismissButton: .default(Text("Awesome!"),
 																				action: {
-						print("This is my first Alert!")
+						print("This slider value is \(sliderValue).")
 					}))
 				}
 			}

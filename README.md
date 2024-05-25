@@ -11,6 +11,7 @@
 - Use modifiers to style the text
 - Use @State(and $ binding) to track the alert view(display some info)'s presenting state
 - Use @State variable to binding the slider to make sure the value fo the slider will be sync when user is playing with it
+- use string interpolation to display the slider value in alert
 
 
 
@@ -68,6 +69,8 @@ Xcode - 15.4 (the version I created the project)
 - use Control + click to check the description that you don't know
 - SwiftUI was designed to solve the problem of the mismatch between user interface and application state. One of the things SwiftUI provides to help with this is something called Bindings
 - Bindings are a way of that a particular user interface view will always be tied to a particular state value
+- Behind the scenes, strings are just a sequence of characters
+
 
 
 ## Acknowledgements
