@@ -8,7 +8,8 @@
 ## Technologies Used
 - Use SwiftUI and Swift to build the App
 - Use Stack, Text, Slider and Button to make the UI
-- Tech 3 - version 3.0
+- Use modifiers to style the text
+
 
 
 ## Features
@@ -31,17 +32,21 @@ List the ready features here:
 
 
 ## Screenshots/Design
-[High-Fidelity Design for Bull’s Eye (made with Figma)](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
+- [High-Fidelity Design for Bull’s Eye (made with Figma)](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
+- [HIG-Foundations-Typography-Specifications](https://developer.apple.com/design/human-interface-guidelines/typography#Specifications)
 <!-- ![Example screenshot](./img/screenshot.png) -->
 
 
 ## Setup
 Xcode - 15.4 (the version I created the project)
 
-## Learned
+## Tips and Learned
 - Control + i: format indentation of the code
 - Control + Command + Space: show Emoji editor
-
+- every time you apply a view modifier, behind the scenes SwiftUI is creating a new, modified version of the original view, so the order matters
+- do not use fixed font size cause the feature of dynamic text in iOS, check that with dynamic type variants
+- modifiers about test styling, like bold, multilineTextAlignment, lineSpacing, font, kerning
+- concept of Instances, data and methods
 
 
 ## Acknowledgements
