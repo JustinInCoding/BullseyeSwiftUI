@@ -47,6 +47,11 @@ Xcode - 15.4 (the version I created the project)
 - do not use fixed font size cause the feature of dynamic text in iOS, check that with dynamic type variants
 - modifiers about test styling, like bold, multilineTextAlignment, lineSpacing, font, kerning
 - concept of Instances, data and methods
+- your app is made up of instances of classes or structs
+- In Swift, the way you store data on an instance is through something called a property (stored properties and computed properties)
+- stored properties is used when you want the instance to simply store a piece of data for you
+- computed properties is used when you want the instance to run some code you write in order to calculate a piece of data
+- the body is a computed property of the contentView
 
 
 ## Acknowledgements
