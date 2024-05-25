@@ -60,7 +60,7 @@ struct ContentView: View {
 					.bold()
 			}
 			Button("Hit Me") {
-				
+				print("Hello, SwiftUI!")
 			}
 		}
 	}

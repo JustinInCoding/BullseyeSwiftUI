@@ -56,6 +56,9 @@ Xcode - 15.4 (the version I created the project)
 - Be careful of the typo and case sensitivity mistake, try use autocomplete instead, also don't miss the parentheses or miss a curly brace (you can reindent code by using control + i or use code folding to find where you miss it)
 - code floding, you can turn on in Xcode’s settings. It’s under “Text Editing” - Display - and then check the code folding ribbon
 - it is best to treat all warnings as if they were errors
+- Buttons and Action, SwiftUI State, SwiftUI Bindings, Strings, Variables, App Architecture, Data Model
+- shift + command + y for open/hide console
+- calling a method (of an instance), calling a function
 
 
 ## Acknowledgements
