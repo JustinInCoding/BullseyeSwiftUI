@@ -48,6 +48,7 @@ Xcode - 15.4 (the version I created the project)
 ## Tips and Learned
 - Control + i: format indentation of the code
 - Control + Command + Space: show Emoji editor
+- Option + Command + P: show/hide Preview
 - every time you apply a view modifier, behind the scenes SwiftUI is creating a new, modified version of the original view, so the order matters
 - do not use fixed font size cause the feature of dynamic text in iOS, check that with dynamic type variants
 - modifiers about test styling, like bold, multilineTextAlignment, lineSpacing, font, kerning
@@ -76,6 +77,7 @@ Xcode - 15.4 (the version I created the project)
 - use a local variable to convert convert a double value to an integer with rounded()
 - App Architecture, which is a fancy way of saying the strategy you use for how to organize your code
 - One of the best practices of App Architecture is called the “single responsibility principle”. That means that you should think about how to organize your app into multiple classes and structs, where each class or struct has one, and only one job
+- convert integer value to string value
 
 
 

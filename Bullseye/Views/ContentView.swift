@@ -33,6 +33,7 @@ import SwiftUI
 struct ContentView: View {
 	@State private var alertIsVisible: Bool = false
 	@State private var sliderValue: Double = 50.0
+	@State private var game: Game = Game()
 	
 	var body: some View {
 		VStack {
@@ -50,7 +51,7 @@ struct ContentView: View {
 					.lineSpacing(4.0)
 					.font(.footnote)
 			}
-			Text("89")
+			Text(String(game.target))
 				.kerning(-1.0)
 				.font(.largeTitle)
 				.fontWeight(.black)
@@ -73,7 +74,12 @@ struct ContentView: View {
 					}
 				}, message: {
 					var roundedValue: Int = Int(sliderValue.rounded())
-					Text("This slider value is \(roundedValue).")
+					Text(
+								"""
+								This slider value is \(roundedValue),
+								You scored \(game.points(sliderValue: roundedValue)) points this round.
+								"""
+					)
 				})
 			} else {
 				// TODO: Check lator
@@ -83,10 +89,15 @@ struct ContentView: View {
 				}
 				.alert(isPresented: $alertIsVisible) {
 					Alert(title: Text("Hello there"),
-								message: Text("This is my first Alert!"),
+								message: Text(
+									"""
+									This slider value is \(roundedValue),
+									You scored \(game.points(sliderValue: roundedValue)) points this round.
+									"""
+								),
 								dismissButton: .default(Text("Awesome!"),
 																				action: {
-						print("This slider value is \(roundedValue).")
+						print("Alert closed!")
 					}))
 				}
 			}
