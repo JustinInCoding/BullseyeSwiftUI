@@ -53,7 +53,9 @@ Xcode - 15.4 (the version I created the project)
 - computed properties is used when you want the instance to run some code you write in order to calculate a piece of data
 - the body is a computed property of the contentView
 - for checking the design tab in figma, you need to have the edit permission or tap the small triangle of project name and tap duplicate to your drafts, download the figma desktop to check it out
-
+- Be careful of the typo and case sensitivity mistake, try use autocomplete instead, also don't miss the parentheses or miss a curly brace (you can reindent code by using control + i or use code folding to find where you miss it)
+- code floding, you can turn on in Xcode’s settings. It’s under “Text Editing” - Display - and then check the code folding ribbon
+- it is best to treat all warnings as if they were errors
 
 
 ## Acknowledgements
