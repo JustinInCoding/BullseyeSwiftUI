@@ -6,8 +6,8 @@
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
+- Use SwiftUI and Swift to build the App
+- Use Stack, Text, Slider and Button to make the UI
 - Tech 3 - version 3.0
 
 
@@ -30,12 +30,18 @@ List the ready features here:
     - Make the app look pretty :]
 
 
-## Screenshots
+## Screenshots/Design
+[High-Fidelity Design for Bull’s Eye (made with Figma)](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
 <!-- ![Example screenshot](./img/screenshot.png) -->
 
 
 ## Setup
 Xcode - 15.4 (the version I created the project)
+
+## Learned
+- Control + i: format indentation of the code
+- Control + Command + Space: show Emoji editor
+
 
 
 ## Acknowledgements
