@@ -33,12 +33,21 @@ import SwiftUI
 struct ContentView: View {
 	var body: some View {
 		VStack {
-			Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
-				.bold()
-				.multilineTextAlignment(.center)
-				.lineSpacing(4.0)
-				.font(.footnote)
-				.kerning(2.0)
+			if #available(iOS 16.0, *) {
+				Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
+					.bold()
+					.multilineTextAlignment(.center)
+					.lineSpacing(4.0)
+					.font(.footnote)
+					.kerning(2.0)
+			} else {
+				// Fallback on earlier versions
+				Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
+					.bold()
+					.multilineTextAlignment(.center)
+					.lineSpacing(4.0)
+					.font(.footnote)
+			}
 			Text("89")
 				.kerning(-1.0)
 				.font(.largeTitle)
