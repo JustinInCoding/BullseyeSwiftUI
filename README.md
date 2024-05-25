@@ -52,6 +52,8 @@ Xcode - 15.4 (the version I created the project)
 - stored properties is used when you want the instance to simply store a piece of data for you
 - computed properties is used when you want the instance to run some code you write in order to calculate a piece of data
 - the body is a computed property of the contentView
+- for checking the design tab in figma, you need to have the edit permission or tap the small triangle of project name and tap duplicate to your drafts, download the figma desktop to check it out
+
 
 
 ## Acknowledgements
