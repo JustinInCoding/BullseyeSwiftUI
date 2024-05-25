@@ -31,6 +31,8 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var alertIsVisible: Bool = false
+	
 	var body: some View {
 		VStack {
 			if #available(iOS 16.0, *) {
@@ -41,7 +43,6 @@ struct ContentView: View {
 					.font(.footnote)
 					.kerning(2.0)
 			} else {
-				// Fallback on earlier versions
 				Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
 					.bold()
 					.multilineTextAlignment(.center)
@@ -59,8 +60,32 @@ struct ContentView: View {
 				Text("100")
 					.bold()
 			}
-			Button("Hit Me") {
-				print("Hello, SwiftUI!")
+			if #available(iOS 15.0, *) {
+				Button("Hit Me") {
+					alertIsVisible = true
+				}
+				.alert("Hello there",
+							 isPresented: $alertIsVisible,
+							 actions: {
+					Button("Awesome!") {
+						print("Alert closed!")
+					}
+				}, message: {
+					Text("This is my first alert!")
+				})
+			} else {
+				// TODO: Check lator
+				Button("Hit Me") {
+					alertIsVisible = true
+				}
+				.alert(isPresented: $alertIsVisible) {
+					Alert(title: Text("Hello there"),
+								message: Text("This is my first Alert!"),
+								dismissButton: .default(Text("Awesome!"),
+																				action: {
+						print("This is my first Alert!")
+					}))
+				}
 			}
 		}
 	}

@@ -9,6 +9,7 @@
 - Use SwiftUI and Swift to build the App
 - Use Stack, Text, Slider and Button to make the UI
 - Use modifiers to style the text
+- Use @State(and $ binding) to track the alert view(display some info)'s presenting state
 
 
 
@@ -59,6 +60,9 @@ Xcode - 15.4 (the version I created the project)
 - Buttons and Action, SwiftUI State, SwiftUI Bindings, Strings, Variables, App Architecture, Data Model
 - shift + command + y for open/hide console
 - calling a method (of an instance), calling a function
+- State in SwiftUI is used to make your user interface accurately represent the internal state of your app, also means your user interfaces and your state are always consistent
+- @State is a special keyword that says this is a state variable, means whenever a state variable changes, SwiftUI is going to automatically recompute the body, resolve the body of the view, and so the view and state variable are always in sync
+- using $ sign before the state variable cause we want to convert our state variable to a binding into the state variable
 
 
 ## Acknowledgements
