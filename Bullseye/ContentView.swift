@@ -72,10 +72,12 @@ struct ContentView: View {
 						print("Alert closed!")
 					}
 				}, message: {
-					Text("This slider value is \(sliderValue).")
+					var roundedValue: Int = Int(sliderValue.rounded())
+					Text("This slider value is \(roundedValue).")
 				})
 			} else {
 				// TODO: Check lator
+				var roundedValue: Int = Int(sliderValue.rounded())
 				Button("Hit Me") {
 					alertIsVisible = true
 				}
@@ -84,7 +86,7 @@ struct ContentView: View {
 								message: Text("This is my first Alert!"),
 								dismissButton: .default(Text("Awesome!"),
 																				action: {
-						print("This slider value is \(sliderValue).")
+						print("This slider value is \(roundedValue).")
 					}))
 				}
 			}

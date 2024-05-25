@@ -70,6 +70,9 @@ Xcode - 15.4 (the version I created the project)
 - SwiftUI was designed to solve the problem of the mismatch between user interface and application state. One of the things SwiftUI provides to help with this is something called Bindings
 - Bindings are a way of that a particular user interface view will always be tied to a particular state value
 - Behind the scenes, strings are just a sequence of characters
+- If you try to simply assign the Double to the Int, you’ll get an error because the feature of Swift which is type safety
+- lifetime of a variable is called “scope”
+- use a local variable to convert convert a double value to an integer with rounded()
 
 
 
