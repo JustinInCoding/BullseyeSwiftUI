@@ -17,6 +17,7 @@
 - use unit test to check the main logic of the game whether the points is calculated right
 - use Test-Driven Development to test the Game’s points method
 - use padding, background, Color to make button look good
+- use assets category of color and linear gradient to make the background and button looks nice
 
 
 ## Features
@@ -90,6 +91,10 @@ Xcode - 15.4 (the version I created the project)
 - use type inference to concise the code
 - Colors and Gradients, Dark Mode, Draw Shapes, Use SFSymbols, Animate Views, Size classes, Property Wrappers, Multiple Screens
 - Modifiers: Padding, Foreground Color, Background, Corner Radius
+- use ZStack and ignoreSafeArea to fill the background in the whole screen
+- use the Asset Category for colors to reuse through all of the app and no need type the value every time you used them
+- Hex to RGB: https://www.rapidtables.com/convert/color/hex-to-rgb.html
+- Use LinearGradient to make button polished
 
 
 ## Acknowledgements
