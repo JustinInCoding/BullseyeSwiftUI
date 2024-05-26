@@ -19,7 +19,7 @@
 - use padding, background, Color to make button look good
 - use assets category of color and linear gradient to make the background and button looks nice
 - use assets category to support dark mode
-- extract Text Views for reusing and for making code clear in contentView
+- extract Text Views for reusing and for making code clean and easy to read in contentView
 - Using @Binding to bind the state to the InstructionsView you created
 
 
