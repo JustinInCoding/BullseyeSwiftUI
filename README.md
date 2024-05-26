@@ -19,6 +19,8 @@
 - use padding, background, Color to make button look good
 - use assets category of color and linear gradient to make the background and button looks nice
 - use assets category to support dark mode
+- extract Text Views for reusing and for making code clear in contentView
+- Using @Binding to bind the state to the InstructionsView you created
 
 
 ## Features
@@ -96,6 +98,7 @@ Xcode - 15.4 (the version I created the project)
 - use the Asset Category for colors to reuse through all of the app and no need type the value every time you used them
 - Hex to RGB: https://www.rapidtables.com/convert/color/hex-to-rgb.html
 - Use LinearGradient to make button polished
+- Using @Binding to bind the state to the InstructionsView you created
 
 
 ## Acknowledgements
