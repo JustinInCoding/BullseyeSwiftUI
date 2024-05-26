@@ -21,6 +21,7 @@
 - use assets category to support dark mode
 - extract Text Views for reusing and for making code clean and easy to read in contentView
 - Using @Binding to bind the state to the InstructionsView you created
+- Use overlay with shape and strokeBorder to polish the HitMe button
 
 
 ## Features
@@ -99,6 +100,8 @@ Xcode - 15.4 (the version I created the project)
 - Hex to RGB: https://www.rapidtables.com/convert/color/hex-to-rgb.html
 - Use LinearGradient to make button polished
 - Using @Binding to bind the state to the InstructionsView you created
+- play around with shapes by Circle, RoundedRectangle, Capsule, Ellipse
+- when using stroke with frame, you will find half of stroke is in the frame and another is out of, to handle this issue you can use inset by hald of the stroke width, or you can use strokeBorder instead
 
 
 ## Acknowledgements
