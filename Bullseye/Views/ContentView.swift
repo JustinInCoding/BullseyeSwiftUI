@@ -31,9 +31,9 @@
 import SwiftUI
 
 struct ContentView: View {
-	@State private var alertIsVisible: Bool = false
-	@State private var sliderValue: Double = 50.0
-	@State private var game: Game = Game()
+	@State private var alertIsVisible = false
+	@State private var sliderValue = 50.0
+	@State private var game = Game()
 	
 	var body: some View {
 		VStack {
@@ -73,7 +73,7 @@ struct ContentView: View {
 						print("Alert closed!")
 					}
 				}, message: {
-					let roundedValue: Int = Int(sliderValue.rounded())
+					let roundedValue = Int(sliderValue.rounded())
 					Text(
 								"""
 								This slider value is \(roundedValue),
@@ -83,7 +83,7 @@ struct ContentView: View {
 				})
 			} else {
 				// TODO: Check lator
-				let roundedValue: Int = Int(sliderValue.rounded())
+				let roundedValue = Int(sliderValue.rounded())
 				Button("Hit Me") {
 					alertIsVisible = true
 				}

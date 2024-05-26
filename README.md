@@ -86,6 +86,7 @@ Xcode - 15.4 (the version I created the project)
 - use @testable decoration to import the module(which is app) cause they are different targets (test target)
 - The basic idea of Test-Driven Development is rather than writing tests AFTER you write your code, you write your tests FIRST
 - the benefit of Test-Driven Developemnt, Forces up-front thought, Great way to ensure you write tests, Improved code quality, Increased speed of development
+- use type inference to concise the code 
 
 
 ## Acknowledgements
