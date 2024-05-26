@@ -15,6 +15,7 @@
 - make the game logic depart from the contentView for according to Single Responsibility Principle
 - use random (find in swift standard library) to generate the target value
 - use unit test to check the main logic of the game whether the points is calculated right
+- use Test-Driven Development to test the Game’s points method
 
 
 ## Features
@@ -82,7 +83,9 @@ Xcode - 15.4 (the version I created the project)
 - check the developer documentation to find useful method in Swift Standard Library, here we use random to generate the target value
 - use XCTAssertTrue, **XCTAssertEqual**, XCTAssertGreaterThan to do unit test on app
 - select the test navigator panel and tap plus button to add a New Unit Test Target
-- use @testable decoration to import the module(which is app) cause they are different targets (test target) 
+- use @testable decoration to import the module(which is app) cause they are different targets (test target)
+- The basic idea of Test-Driven Development is rather than writing tests AFTER you write your code, you write your tests FIRST
+- the benefit of Test-Driven Developemnt, Forces up-front thought, Great way to ensure you write tests, Improved code quality, Increased speed of development
 
 
 ## Acknowledgements
