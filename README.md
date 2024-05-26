@@ -16,6 +16,7 @@
 - use random (find in swift standard library) to generate the target value
 - use unit test to check the main logic of the game whether the points is calculated right
 - use Test-Driven Development to test the Game’s points method
+- use padding, background, Color to make button look good
 
 
 ## Features
@@ -86,7 +87,9 @@ Xcode - 15.4 (the version I created the project)
 - use @testable decoration to import the module(which is app) cause they are different targets (test target)
 - The basic idea of Test-Driven Development is rather than writing tests AFTER you write your code, you write your tests FIRST
 - the benefit of Test-Driven Developemnt, Forces up-front thought, Great way to ensure you write tests, Improved code quality, Increased speed of development
-- use type inference to concise the code 
+- use type inference to concise the code
+- Colors and Gradients, Dark Mode, Draw Shapes, Use SFSymbols, Animate Views, Size classes, Property Wrappers, Multiple Screens
+- Modifiers: Padding, Foreground Color, Background, Corner Radius
 
 
 ## Acknowledgements
