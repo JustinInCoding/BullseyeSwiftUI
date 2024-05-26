@@ -13,8 +13,7 @@
 - Use @State variable to binding the slider to make sure the value fo the slider will be sync when user is playing with it
 - use string interpolation to display the slider value in alert
 - make the game logic depart from the contentView for according to Single Responsibility Principle
-
-
+- use random (find in swift standard library) to generate the target value
 
 
 ## Features
@@ -78,7 +77,8 @@ Xcode - 15.4 (the version I created the project)
 - App Architecture, which is a fancy way of saying the strategy you use for how to organize your code
 - One of the best practices of App Architecture is called the “single responsibility principle”. That means that you should think about how to organize your app into multiple classes and structs, where each class or struct has one, and only one job
 - convert integer value to string value
-
+- The Swift Standard Library (Random), Unit Testing, Test-Driven Development, If/Else Statements, Variables vs. Constants, Type Inference
+- check the developer documentation to find useful method in Swift Standard Library, here we use random to generate the target value
 
 
 ## Acknowledgements
