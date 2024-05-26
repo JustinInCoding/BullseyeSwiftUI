@@ -14,6 +14,7 @@
 - use string interpolation to display the slider value in alert
 - make the game logic depart from the contentView for according to Single Responsibility Principle
 - use random (find in swift standard library) to generate the target value
+- use unit test to check the main logic of the game whether the points is calculated right
 
 
 ## Features
@@ -79,6 +80,9 @@ Xcode - 15.4 (the version I created the project)
 - convert integer value to string value
 - The Swift Standard Library (Random), Unit Testing, Test-Driven Development, If/Else Statements, Variables vs. Constants, Type Inference
 - check the developer documentation to find useful method in Swift Standard Library, here we use random to generate the target value
+- use XCTAssertTrue, **XCTAssertEqual**, XCTAssertGreaterThan to do unit test on app
+- select the test navigator panel and tap plus button to add a New Unit Test Target
+- use @testable decoration to import the module(which is app) cause they are different targets (test target) 
 
 
 ## Acknowledgements
