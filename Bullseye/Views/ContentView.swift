@@ -73,7 +73,7 @@ struct ContentView: View {
 						print("Alert closed!")
 					}
 				}, message: {
-					var roundedValue: Int = Int(sliderValue.rounded())
+					let roundedValue: Int = Int(sliderValue.rounded())
 					Text(
 								"""
 								This slider value is \(roundedValue),
@@ -83,7 +83,7 @@ struct ContentView: View {
 				})
 			} else {
 				// TODO: Check lator
-				var roundedValue: Int = Int(sliderValue.rounded())
+				let roundedValue: Int = Int(sliderValue.rounded())
 				Button("Hit Me") {
 					alertIsVisible = true
 				}
