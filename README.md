@@ -25,6 +25,7 @@
 - Use SFSymbols to display icons
 - Put four corner buttons into the background view
 - Use ForEach to add Ring on the background view
+- Use radial gradient to add ring effect on background
 
 
 ## Features
