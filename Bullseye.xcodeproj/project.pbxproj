@@ -15,6 +15,7 @@
 		981373862C031D47001EF314 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981373852C031D47001EF314 /* BullseyeTests.swift */; };
 		9813738D2C037692001EF314 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813738C2C037692001EF314 /* TextViews.swift */; };
 		9813738F2C0380B2001EF314 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813738E2C0380B2001EF314 /* Shapes.swift */; };
+		9874E7382C0C12B4000E7F2D /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9874E7372C0C12B3000E7F2D /* RoundedViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		981373852C031D47001EF314 /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
 		9813738C2C037692001EF314 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 		9813738E2C0380B2001EF314 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		9874E7372C0C12B3000E7F2D /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				980A70AE2C01B650002036F7 /* ContentView.swift */,
 				9813738C2C037692001EF314 /* TextViews.swift */,
 				9813738E2C0380B2001EF314 /* Shapes.swift */,
+				9874E7372C0C12B3000E7F2D /* RoundedViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9874E7382C0C12B4000E7F2D /* RoundedViews.swift in Sources */,
 				9813738F2C0380B2001EF314 /* Shapes.swift in Sources */,
 				980A70AF2C01B650002036F7 /* ContentView.swift in Sources */,
 				9813738D2C037692001EF314 /* TextViews.swift in Sources */,

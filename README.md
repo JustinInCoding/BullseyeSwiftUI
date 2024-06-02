@@ -22,6 +22,7 @@
 - extract Text Views for reusing and for making code clean and easy to read in contentView
 - Using @Binding to bind the state to the InstructionsView you created
 - Use overlay with shape and strokeBorder to polish the HitMe button
+- Use SFSymbols to display icons
 
 
 ## Features
@@ -102,9 +103,12 @@ Xcode - 15.4 (the version I created the project)
 - Using @Binding to bind the state to the InstructionsView you created
 - play around with shapes by Circle, RoundedRectangle, Capsule, Ellipse
 - when using stroke with frame, you will find half of stroke is in the frame and another is out of, to handle this issue you can use inset by hald of the stroke width, or you can use strokeBorder instead
+- check the SFSymbols: https://developer.apple.com/sf-symbols/
+- Use SFSymbols to display icons
 
 
 ## Acknowledgements
 Thanks for the kodeco's team providing such a great course
 - Original Repository of Kodeco [_here_](https://github.com/kodecocodes/video-yfsa1-materials). 
+- 2nd part [_here_](https://github.com/kodecocodes/video-yfsa2-materials).
 
