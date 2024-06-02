@@ -51,7 +51,11 @@ struct TopView: View {
 	@Binding var game: Game
 	var body: some View {
 		HStack {
-			RoundedImageViewStroked(systemName: "arrow.counterclockwise")
+			Button {
+				game.restart()
+			} label: {
+				RoundedImageViewStroked(systemName: "arrow.counterclockwise")
+			}
 			Spacer()
 			RoundedImageViewFilled(systemName: "list.dash")
 		}
