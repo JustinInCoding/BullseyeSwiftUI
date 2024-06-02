@@ -23,6 +23,7 @@
 - Using @Binding to bind the state to the InstructionsView you created
 - Use overlay with shape and strokeBorder to polish the HitMe button
 - Use SFSymbols to display icons
+- Put four corner buttons into the background view
 
 
 ## Features
