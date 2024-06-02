@@ -106,6 +106,8 @@ Xcode - 15.4 (the version I created the project)
 - when using stroke with frame, you will find half of stroke is in the frame and another is out of, to handle this issue you can use inset by hald of the stroke width, or you can use strokeBorder instead
 - check the SFSymbols: https://developer.apple.com/sf-symbols/
 - Use SFSymbols to display icons
+- Add Unit test for starting a new round
+- use breakpoints to find out the starting new round logic belongs to the awesome button, not hit me button
 
 
 ## Acknowledgements
