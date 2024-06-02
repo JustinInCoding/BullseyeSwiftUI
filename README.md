@@ -111,7 +111,8 @@ Xcode - 15.4 (the version I created the project)
 - Add Unit test for starting a new round
 - use breakpoints to find out the starting new round logic belongs to the awesome button, not hit me button
 - environment keypaths defined by Apple [_here_](https://developer.apple.com/documentation/swiftui/environmentvalues)
-- use environment keypath(colorscheme) to make different opacity on rings view 
+- use environment keypath(colorscheme) to make different opacity on rings view
+- use ZStack make the slider center in the vertical orientation
 
 
 ## Acknowledgements
