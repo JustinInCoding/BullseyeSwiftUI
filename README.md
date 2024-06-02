@@ -26,6 +26,7 @@
 - Put four corner buttons into the background view
 - Use ForEach to add Ring on the background view
 - Use radial gradient to add ring effect on background
+- Use shadow modifier to modify the alert view
 
 
 ## Features

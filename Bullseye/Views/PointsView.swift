@@ -31,13 +31,20 @@
 import SwiftUI
 
 struct PointsView: View {
+	@Binding var alertIsVisible: Bool
+	@Binding var sliderValue: Double
+	@Binding var game: Game
+
 	var body: some View {
+		let roundedValue = Int(sliderValue.rounded())
+		let points = game.points(sliderValue: roundedValue)
 		VStack(spacing: 10) {
 			InstructionText(text: "The Slider's Value is")
-			BigNumberText(text: "50")
-			BodyText(text: "Tou scored 73 points\n🎉🎉🎉")
+			BigNumberText(text: String(roundedValue))
+			BodyText(text: "Tou scored \(points) points\n🎉🎉🎉")
 			Button {
-				// Start New Round
+				alertIsVisible.toggle()
+				game.startNewRound(points: points)
 			} label: {
 				ButtonText(text: "Start New Round")
 			}
@@ -52,6 +59,11 @@ struct PointsView: View {
 	}
 }
 
+
+var alertIsVisible = Binding.constant(true)
+var sliderValue = Binding.constant(50.0)
+var game = Binding.constant(Game())
+
 #Preview {
-	PointsView()
+	PointsView(alertIsVisible: alertIsVisible, sliderValue: sliderValue, game: game)
 }
