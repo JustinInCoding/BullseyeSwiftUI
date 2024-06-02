@@ -75,11 +75,40 @@ struct LabelText: View {
 	}
 }
 
+struct BodyText: View {
+	var text: String
+	var body: some View {
+		Text(text)
+			.fontWeight(.semibold)
+			.font(.subheadline)
+			.multilineTextAlignment(.center)
+			.lineSpacing(12.0)
+	}
+}
+
+struct ButtonText: View {
+	var text: String
+	var body: some View {
+		Text(text)
+			.bold()
+			.foregroundColor(.white)
+			.padding()
+			.frame(maxWidth: .infinity)
+			.background(
+				Color.accentColor
+			)
+			.cornerRadius(12.0)
+	}
+}
+
 #Preview {
 	VStack {
 		InstructionText(text: "Instruction View")
 		BigNumberText(text: "999")
 		SliderLabelText(text: "1")
 		LabelText(text: "Score")
+		BodyText(text: "You scored 73 points\n😍😍😍")
+		ButtonText(text: "Start New Round")
 	}
+	.padding()
 }

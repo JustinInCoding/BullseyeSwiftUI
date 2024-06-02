@@ -113,6 +113,8 @@ Xcode - 15.4 (the version I created the project)
 - environment keypaths defined by Apple [_here_](https://developer.apple.com/documentation/swiftui/environmentvalues)
 - use environment keypath(colorscheme) to make different opacity on rings view
 - use ZStack make the slider center in the vertical orientation
+- More Views and View Modifiers, Modify View Hierachy based on state, SwiftUI Animation, Avoiding Magic Number
+
 
 
 ## Acknowledgements
