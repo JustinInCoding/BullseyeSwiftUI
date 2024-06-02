@@ -24,6 +24,7 @@
 - Use overlay with shape and strokeBorder to polish the HitMe button
 - Use SFSymbols to display icons
 - Put four corner buttons into the background view
+- Use ForEach to add Ring on the background view
 
 
 ## Features
