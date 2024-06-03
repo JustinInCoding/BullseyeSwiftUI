@@ -31,24 +31,35 @@
 import SwiftUI
 
 struct Shapes: View {
+	@State private var wideShapes = true
 	var body: some View {
 		VStack {
-			Circle()
-//				.fill(.blue)
-//				.inset(by: 10)
-//				.stroke(Color.blue, lineWidth: 20)
-				.strokeBorder(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, lineWidth: 20.0)
-				.frame(width: 200, height: 100)
-				.background(.green)
+			if !wideShapes {
+				Circle()
+				//				.fill(.blue)
+				//				.inset(by: 10)
+				//				.stroke(Color.blue, lineWidth: 20)
+					.strokeBorder(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, lineWidth: 20.0)
+					.frame(width: 200, height: 100)
+					.background(.green)
+//					.transition(.scale)
+					.transition(.opacity)
+			}
 			RoundedRectangle(cornerRadius: 20.0)
 				.fill(.blue)
-				.frame(width: 200, height: 100)
+				.frame(width: wideShapes ? 200 : 100, height: 100)
+//				.animation(.easeInOut, value: wideShapes)
 			Capsule()
 				.fill(.blue)
-				.frame(width: 200, height: 100)
+				.frame(width: wideShapes ? 200 : 100, height: 100)
 			Ellipse()
 				.fill(.blue)
-				.frame(width: 200, height: 100)
+				.frame(width: wideShapes ? 200 : 100, height: 100)
+			Button("Animate!") {
+				withAnimation {
+					wideShapes.toggle()
+				}
+			}
 		}
 	}
 }

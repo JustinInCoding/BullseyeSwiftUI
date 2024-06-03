@@ -41,9 +41,11 @@ struct PointsView: View {
 		VStack(spacing: 10) {
 			InstructionText(text: "The Slider's Value is")
 			BigNumberText(text: String(roundedValue))
-			BodyText(text: "Tou scored \(points) points\n🎉🎉🎉")
+			BodyText(text: "You scored \(points) points\n🎉🎉🎉")
 			Button {
-				alertIsVisible.toggle()
+				withAnimation {
+					alertIsVisible.toggle()
+				}
 				game.startNewRound(points: points)
 			} label: {
 				ButtonText(text: "Start New Round")
