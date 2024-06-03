@@ -123,6 +123,18 @@ struct DateText: View {
 	}
 }
 
+struct BigBoldText: View {
+	let text: String
+
+	var body: some View {
+		Text(text.uppercased())
+			.fontWeight(.black)
+			.font(.title)
+			.kerning(2.0)
+			.foregroundColor(Color("TextColor"))
+	}
+}
+
 #Preview {
 	VStack {
 		InstructionText(text: "Instruction View")
@@ -133,6 +145,7 @@ struct DateText: View {
 		ButtonText(text: "Start New Round")
 		ScoreText(score: 999)
 		DateText(date: Date())
+		BigBoldText(text: "Leaderboard")
 	}
 	.padding()
 }
