@@ -52,6 +52,7 @@ List the ready features here:
 ## Screenshots/Design
 - [High-Fidelity Design for Bull’s Eye (made with Figma)](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
 - [HIG-Foundations-Typography-Specifications](https://developer.apple.com/design/human-interface-guidelines/typography#Specifications)
+- [Size-Class-reference](https://developer.apple.com/design/human-interface-guidelines/layout#Platform-considerations)
 <!-- ![Example screenshot](./img/screenshot.png) -->
 
 
@@ -119,7 +120,9 @@ Xcode - 15.4 (the version I created the project)
 - Use .animation modifier to add animation to a view
 - Use WithAnimation to make all the views related to some trigger animated delightful
 - use enum as namespace to set constants value for avoiding the magic number
-
+- set the .infinity of cornerRadius on RoundedRectangle will make the corner as round as it can
+- Text can use style to display the date type
+- Use environment vertical/horizantal size class to adjust the layout to fit the different devices or oreientations
 
 ## Acknowledgements
 Thanks for the kodeco's team providing such a great course
