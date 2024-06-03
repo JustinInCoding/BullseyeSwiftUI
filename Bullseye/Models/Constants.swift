@@ -28,44 +28,14 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import SwiftUI
+import Foundation
 
-struct PointsView: View {
-	@Binding var alertIsVisible: Bool
-	@Binding var sliderValue: Double
-	@Binding var game: Game
-
-	var body: some View {
-		let roundedValue = Int(sliderValue.rounded())
-		let points = game.points(sliderValue: roundedValue)
-		VStack(spacing: 10) {
-			InstructionText(text: "The Slider's Value is")
-			BigNumberText(text: String(roundedValue))
-			BodyText(text: "You scored \(points) points\n🎉🎉🎉")
-			Button {
-				withAnimation {
-					alertIsVisible.toggle()
-				}
-				game.startNewRound(points: points)
-			} label: {
-				ButtonText(text: "Start New Round")
-			}
-		}
-			.padding()
-			.frame(maxWidth: 300)
-			.background(
-				Color("BackgroundColor")
-			)
-			.cornerRadius(Constants.General.roundRectCornerRadius)
-			.shadow(radius: 10.0, x: 5.0, y: 5.0)
+enum Constants {
+	enum General {
+		public static let strokeWidth = CGFloat(2.0)
+		public static let roundedViewLength = CGFloat(56.0)
+		public static let roundRectViewWidth = CGFloat(68.0)
+		public static let roundRectViewHeight = CGFloat(56.0)
+		public static let roundRectCornerRadius = CGFloat(21.0)
 	}
-}
-
-
-var alertIsVisible = Binding.constant(true)
-var sliderValue = Binding.constant(50.0)
-var game = Binding.constant(Game())
-
-#Preview {
-	PointsView(alertIsVisible: alertIsVisible, sliderValue: sliderValue, game: game)
 }

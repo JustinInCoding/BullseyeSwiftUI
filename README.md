@@ -27,7 +27,8 @@
 - Use ForEach to add Ring on the background view
 - Use radial gradient to add ring effect on background
 - Use shadow modifier to modify the alert view
-
+- combine withAnimation and transition to do the animation and make the app delightful
+- use zIndex to fix bugs of apple not work on animation in 0 zIndex
 
 ## Features
 List the ready features here:
@@ -115,7 +116,9 @@ Xcode - 15.4 (the version I created the project)
 - use environment keypath(colorscheme) to make different opacity on rings view
 - use ZStack make the slider center in the vertical orientation
 - More Views and View Modifiers, Modify View Hierachy based on state, SwiftUI Animation, Avoiding Magic Number
-
+- Use .animation modifier to add animation to a view
+- Use WithAnimation to make all the views related to some trigger animated delightful
+- use enum as namespace to set constants value for avoiding the magic number
 
 
 ## Acknowledgements

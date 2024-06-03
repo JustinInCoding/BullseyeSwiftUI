@@ -101,13 +101,13 @@ struct HitMeButton: View {
 			}
 		)
 		.overlay(
-			RoundedRectangle(cornerRadius: 21.0)
-				.strokeBorder(Color.white, lineWidth: 2.0)
+			RoundedRectangle(cornerRadius: Constants.General.roundRectCornerRadius)
+				.strokeBorder(Color.white, lineWidth: Constants.General.strokeWidth)
 		)
 		.foregroundColor(.white)
 		.bold()
 		.font(.title3)
-		.cornerRadius(21.0)
+		.cornerRadius(Constants.General.roundRectCornerRadius)
 	}
 }
 
