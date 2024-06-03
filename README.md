@@ -29,6 +29,7 @@
 - Use shadow modifier to modify the alert view
 - combine withAnimation and transition to do the animation and make the app delightful
 - use zIndex to fix bugs of apple not work on animation in 0 zIndex
+- use sheet modifier to present the leaderboard view
 
 ## Features
 List the ready features here:
