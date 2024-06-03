@@ -75,6 +75,20 @@ struct RoundRectTextView: View {
 	}
 }
 
+struct RoundedTextViewStroked: View {
+	var text: String
+	var body: some View {
+		Text(text)
+			.font(.title3)
+			.foregroundColor(Color("TextColor"))
+			.frame(width: Constants.General.roundedViewLength, height: Constants.General.roundedViewLength)
+			.overlay(
+				Circle()
+					.strokeBorder(Color("LeaderboardRowColor"), lineWidth: Constants.General.strokeWidth)
+			)
+	}
+}
+
 struct PreviewView: View {
 	var body: some View {
 		VStack(spacing: 10) {
