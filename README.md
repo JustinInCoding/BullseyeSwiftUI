@@ -124,6 +124,7 @@ Xcode - 15.4 (the version I created the project)
 - set the .infinity of cornerRadius on RoundedRectangle will make the corner as round as it can
 - Text can use style to display the date type
 - Use environment vertical/horizantal size class to adjust the layout to fit the different devices or oreientations
+- add entry to the leaderboard to save the score records
 
 ## Acknowledgements
 Thanks for the kodeco's team providing such a great course
