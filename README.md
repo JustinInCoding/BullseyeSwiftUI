@@ -1,6 +1,6 @@
 # Bullseye
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/JustinInCoding/BullseyeSwiftUI/blob/master/README.md)
-[![zh-cn](https://img.shields.io/badge/lang-zh--cn-blue.svg)](https://github.com/JustinInCoding/BullseyeSwiftUI/blob/master/README.zh-cn.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/JustinInCoding/BullseyeSwiftUI/blob/main/README.md)
+[![zh-cn](https://img.shields.io/badge/lang-zh--cn-blue.svg)](https://github.com/JustinInCoding/BullseyeSwiftUI/blob/main/README.zh-cn.md)
 
 > This project is for me to learn from kodeco's iOS courses. Here I try to grasp the knowledge of SwiftUI by recording the steps of building an SwiftUI app.
 
