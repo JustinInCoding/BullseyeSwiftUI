@@ -43,12 +43,12 @@ struct RowView: View {
 
 	var body: some View {
 		HStack {
-			RoundedTextViewStroked(text: "1")
+			RoundedTextViewStroked(text: String(index))
 			Spacer()
-			ScoreText(score: 999)
+			ScoreText(score: score)
 				.frame(width: Constants.Leaderboard.scoreColumnWidth)
 			Spacer()
-			DateText(date: Date())
+			DateText(date: date)
 				.frame(width: Constants.Leaderboard.dateColumnWidth)
 		}
 		.background(
